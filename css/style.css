@@ -55,3 +55,32 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+#basicInformation .collapsible-header i {
+  float: none;
+  display: inline-block;
+}
+
+#basicInformation h2 {
+  margin: 1.78rem 0 0 0;
+}
+
+#basicInformation .collapsible-header {
+  line-height: 0;
+  padding-bottom: 1.78rem;
+}
+
+blockquote {
+  margin-top: 1rem;
+}
+
+.promo i {
+    margin: 40px 0;
+    font-size: 7rem;
+    display: block;
+}
+
+.socialpanel {
+  float: right;
+  position: relative;
+}
