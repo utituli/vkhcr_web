@@ -73,3 +73,9 @@ footer.page-footer {
 blockquote {
   margin-top: 1rem;
 }
+
+.promo i {
+    margin: 40px 0;
+    font-size: 7rem;
+    display: block;
+}
