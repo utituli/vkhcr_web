@@ -56,6 +56,11 @@ footer.page-footer {
   margin: 0;
 }
 
+
+footer .label {
+  vertical-align: super;
+}
+
 #basicInformation .collapsible-header i {
   float: none;
   display: inline-block;
