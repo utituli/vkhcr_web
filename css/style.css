@@ -84,3 +84,7 @@ blockquote {
     font-size: 7rem;
     display: block;
 }
+
+ul#info li {
+  border-bottom: 1px solid #e0e0e0  ;
+}
