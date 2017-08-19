@@ -47,11 +47,21 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  h1{
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (min-width : 992px) {
   .collapsible-body {
     padding: 2rem 6rem;
+  }
+  nav .nav-wrapper {
+    width: 80%;
+  }
+
+  #footer{
+    width: 90%
   }
 }
 
@@ -68,12 +78,11 @@ p {
   font-size: inherit;
 }
 
-footer.page-footer {
+#footer.page-footer {
   margin: 0;
 }
 
-
-footer .label {
+#footer .label {
   vertical-align: super;
 }
 
@@ -127,4 +136,8 @@ blockquote {
     min-height: 84px;
     padding-left: 120px;
     position: relative;
+}
+/*Fix for mobile navbar*/
+#sidenav-overlay{
+  visibility: hidden;
 }
