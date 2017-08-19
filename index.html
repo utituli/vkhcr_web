@@ -20,28 +20,36 @@
   <div class="navbar-fixed">
     <nav class="white" role="navigation">
       <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo center"><img alt="VKH ČR" src="resources/logo.jpg" width="20%" height="20%"></a>
-        <ul class="left hide-on-med-and-down">
-          <li><a href="#">O nás</a></li>
-          <li><a href="#clenove">Členové</a></li>
-          <li><a href="#">Rada</a></li>
-        </ul>
+        <div class="hide-on-med-and-down">
+          <a id="logo-container" href="#" class="brand-logo left"><img alt="VKH ČR" src="resources/logo.jpg" width="100%" height="100%"></a>
+        </div>
+        <div class="hide-on-large-only">
+          <a id="logo-container" href="#" class="brand-logo center"><img alt="VKH ČR" src="resources/logo.jpg" width="90%" height="90%"></a>
+        </div>
+
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Akce</a></li>
-          <li><a href="#">Podpořte nás</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="#basicInformation">Informace</a></li>
+          <li><a href="#cities">Členové</a></li>
+          <li><a href="#members">Náš tým</a></li>
+          <li><a href="#prayer">Modlitba studenta</a></li>
+          <li><a href="#support">Podpořte nás</a></li>
+          <li><a href="#footer">Kontakt</a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
-          <!--TODO add links here too  -->
-          <li><a href="#">O nás</a></li>
+          <li><a href="#basicInformation">Informace</a></li>
+          <li><a href="#cities">Členové</a></li>
+          <li><a href="#members">Náš tým</a></li>
+          <li><a href="#prayer">Modlitba studenta</a></li>
+          <li><a href="#support">Podpořte nás</a></li>
+          <li><a href="#footer">Kontakt</a></li>
         </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       </div>
     </nav>
   </div>
   <div class="container">
-    <div class="section">
+    <div class="section scrollspy">
 
       <!--   Icon Section   -->
       <div class="row">
@@ -112,7 +120,7 @@
   </div>
   <div class="gray">
     <div class="container">
-      <div class="section" id="basicInformation">
+      <div class="section scrollspy" id="basicInformation">
 
         <!--   Icon Section   -->
         <div class="row">
@@ -181,7 +189,7 @@
   </div>
 
   <div class="container">
-    <div class="section">
+    <div class="section scrollspy" id="cities">
       <div class="row">
         <h2 class="center teal-text sectionHeader">Členové</h2>
       </div>
@@ -192,7 +200,7 @@
 
   <div class="gray">
     <div class="container">
-      <div class="section members">
+      <div class="section members scrollspy" id="members">
         <div class="row">
           <h2 class="center teal-text sectionHeader">Náš tým</h2>
         </div>
@@ -210,7 +218,7 @@
 
 
   <div class="container">
-    <div class="section">
+    <div class="section scrollspy" id="prayer">
       <div class="row">
         <h2 class="center teal-text sectionHeader">Modlitba studenta</h2>
       </div>
@@ -232,12 +240,11 @@
 
   <div class="gray">
     <div class="container">
-      <div class="section">
+      <div class="section scrollspy" id="support">
         <div class="row">
           <h2 class="center teal-text sectionHeader">Podpořte nás</h2>
         </div>
         <div class="row">
-
           <h3>Podpořit nás můžete následujícími způsoby:</h3>
           <ul class="collection">
             <li class="collection-item"><b>Modlitbou</b> - každá modlitba se počítá a rozhodně ji nechceme podceňovat :)</li>
@@ -269,7 +276,7 @@
   </div>
 
   <footer class="page-footer teal">
-    <div class="container">
+    <div class="container scrollspy" id="footer">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">VKH ČR</h5>

@@ -56,6 +56,13 @@ p {
   .collapsible-body {
     padding: 2rem 6rem;
   }
+  nav .nav-wrapper {
+    width: 80%;
+  }
+
+  #footer{
+    width: 90%
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -71,12 +78,11 @@ p {
   font-size: inherit;
 }
 
-footer.page-footer {
+#footer.page-footer {
   margin: 0;
 }
 
-
-footer .label {
+#footer .label {
   vertical-align: super;
 }
 
@@ -130,4 +136,8 @@ blockquote {
     min-height: 84px;
     padding-left: 120px;
     position: relative;
+}
+/*Fix for mobile navbar*/
+#sidenav-overlay{
+  visibility: hidden;
 }
