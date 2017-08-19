@@ -10,7 +10,6 @@ const Member = ({
   <p>Email: ${email} <br>
       ${secondLine}
   </p>
-  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
 </li>
 `;
 
