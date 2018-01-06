@@ -20,19 +20,19 @@ $('.members ul').html([{
     secondLine: 'Telefon: +420 721 270 518'
   },
   {
-    avatar: 'unknown',
-    name: '<b>Zástupce prezidenta, propagace</b> - Tomáš Putna',
+    avatar: 'tomas_putna',
+    name: '<b>Zástupce prezidenta, Propagace</b> - Tomáš Putna',
     email: 'tomas.putna@vkhcr.org, propagace@vkhcr.org',
     secondLine: '&nbsp;'
   },
   {
     avatar: 'unknown',
-    name: '<b>Finance</b> - Adéla Štukavcová',
+    name: '<b>Finance</b> - Kristýna Fráňová',
     email: 'finance@vrhcr.org',
     secondLine: '&nbsp;'
   },
   {
-    avatar: 'unknown',
+    avatar: 'monika_schottkova',
     name: '<b>Fundraising, Foreign affairs</b> - Monika Schottková',
     email: 'fundraising@vkhcr.org, foreignaffairs@vkhcr.org',
     secondLine: '&nbsp;'
