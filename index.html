@@ -18,6 +18,15 @@
 
 <body>
   <div class="navbar-fixed">
+  
+	 <ul id="dropabout" class="dropdown-content">
+	   <li><a href="#!">Nase cile</a></li>
+	   <li class="divider"></li>
+	   <li><a href="#!">Historie</a></li>
+	   <li class="divider"></li>
+	   <li><a href="#!">Modlitba studenta</a></li>
+	 </ul>
+	 
     <nav class="white" role="navigation">
       <div class="nav-wrapper container">
         <div class="hide-on-med-and-down">
@@ -28,7 +37,7 @@
         </div>
 
         <ul class="right hide-on-med-and-down">
-          <li><a href="#aboutUs">O nás</a></li>
+          <li><a class="dropdown-button" href="#aboutUs" data-activates="dropabout">O nás<i class="material-icons right">arrow_drop_down</i></a></li>
           <li><a href="#cities">Členové</a></li>
           <li><a href="#actions">Naše akce</a></li>
 		  <li><a href="#team">Rada</a></li>
@@ -109,17 +118,16 @@
         </div>
       </div>
       <div class="row">
-        <div class="promo">
+        
           <h2 class="center teal-text">
             <!--<i class="material-icons">grade</i>-->
         </h2>
-
           <p class="flow-text center">„Vysokoškolské katolické hnutí je především společenství, kde lidé mohou spolu studovat, bavit se a modlit. Je to prostor pro růst, vzdělání i vztahy. Je otevřené pro všechny, kteří mají zájem sdílet svůj život s ostatními podobného smýšlení.“
           </p>
-		  <p class="flow-text center">Pokud vás zajímají bližší informace o našem spolku, naše cíle a vize nebo naše historie, klikněte na info inkonu níže.
+		  <p class="flow-text center">Pokud vás zajímají bližší informace o našem spolku, naše cíle a vize nebo naše historie, klikněte na tlačítko níže.
           </p>
-		  <a href="info.html"><h2 class="center"><i class="material-icons">info_outline</i></h2></a>
-        </div>
+		  <p class="flow-text center"><a class="center waves-effect waves-light btn" target="_blank" href="info.html"><i class="material-icons">info_outline</i> Bližší informace <i class="material-icons">info_outline</i></a>
+          </p>
       </div>
     </div>
   </div>
@@ -217,13 +225,20 @@
 
             <ul class="collapsible">
               <li>
-                <div class="collapsible-header icon-block center">
+                <div class="collapsible-header center">
+				<div class="center">
                   <h2 class="brown-text center"><i class="material-icons">mood</i></h2>
+				  <br>
                   <h5 class="center">Studentský Velehrad</h5>
                 </div>
+				</div>
                 <div class="collapsible-body flow-text">
                   <p class="center light">Studentský Velehrad (SV) je vícedenní setkání vysokoškoláků pořádané každé dva roky na starobylém poutním místě Velehrad. SV nabízí prostor nejen k přemýšlení, duchovnímu obohacení, ale i společným zážitkům a navázání nových přátelství. Součástí programu jsou vždy společné slavení eucharistie, přednášky, koncerty, workshopy a diskuze ve skupinkách. Více informací o SV naleznene na facebooku nebo webu akce.</p>
-                </div>
+				  <div class="socialpanel center">
+					<a href="http://www.google.com"class="waves-effect waves-light btn-floating btn social web" target="_blank"><i class="material-icons">language</i> Visit website</a>
+					<a href="${facebook}" class="waves-effect waves-light btn-floating btn social facebook" target="_blank"><i class="fa fa-facebook"></i> Sign in with vk</a>
+				  </div>
+               </div>
               </li>
               <li>
                 <div class="collapsible-header icon-block center">
@@ -332,6 +347,37 @@
 	  <div class="section scrollspy" id="download">
         <div class="row">
           <h1 class="header center teal-text text-lighten-2">Ke stažení</h1>
+        </div>
+		<div class="row">
+		 <ul class="collapsible" data-collapsible="accordion">
+		   <li>
+			 <div class="collapsible-header">Výroční zprávy<a href="#!" class="secondary-content"><i class="material-icons">arrow_drop_down</i></a></div>
+			 <div class="collapsible-body">
+			  <div class="collection">
+			 <a href="#!" class="collection-item">2014</a>
+			 <a href="#!" class="collection-item">2015</a>
+			 <a href="#!" class="collection-item">2016</a>
+			  </div>
+			 </div>
+		   </li>
+		   <li>
+			 <div class="collapsible-header">Stanovy</div>
+		   </li>
+		   <li>
+			 <div class="collapsible-header">Modlitba studenta</div>
+		   </li>
+		   <li>
+			 <div class="collapsible-header">Loga<a href="#!" class="secondary-content"><i class="material-icons">arrow_drop_down</i></a></div>
+			 <div class="collapsible-body">
+			  <div class="collection">
+			 <a href="#!" class="collection-item">Klasické logo (420x300)</a>
+			 <a href="#!" class="collection-item">Full HD logo (7460x4500)</a>
+			 <a href="#!" class="collection-item">Logo s celým názvem</a>
+			 <a href="#!" class="collection-item">Logo s celým názvem - štítek</a>
+			  </div>
+			 </div>
+		   </li>
+		 </ul>
         </div>
       </div>
     </div>

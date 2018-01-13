@@ -26,7 +26,7 @@ $('.members ul').html([{
     secondLine: '&nbsp;'
   },
   {
-    avatar: 'unknown',
+    avatar: 'kristyna_franova',
     name: '<b>Finance</b> - Kristýna Fráňová',
     email: 'finance@vrhcr.org',
     secondLine: '&nbsp;'
