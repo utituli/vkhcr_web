@@ -27,7 +27,7 @@ const Item = ({
       </p>
 
       <div class="socialpanel center">
-        <a href="${url}"class="waves-effect waves-light btn-floating btn social web" target="_blank"><i class="material-icons">language</i> Visit website</a>
+        <a href="${url}" class="waves-effect waves-light btn-floating btn social web" target="_blank"><i class="material-icons">language</i> Visit website</a>
         <a href="${facebook}" class="waves-effect waves-light btn-floating btn social facebook" target="_blank"><i class="fa fa-facebook"></i> Sign in with vk</a>
       </div>
     </div>
