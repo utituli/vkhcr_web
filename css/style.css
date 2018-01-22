@@ -11,6 +11,18 @@ nav .brand-logo {
   color: #444;
 }
 
+.inner-nav{
+    padding-left: 20px !important;
+}
+
+.inner-nav a {
+    color: #009688 !important;
+}
+
+.dropdown-content{
+    margin-top: 64px;
+}
+
 .gray{
   background-color: #f9f9f9;
 }
