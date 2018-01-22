@@ -5,6 +5,7 @@
       closeOnClick: true,
       draggable: true
     });
+    $('.tooltipped').tooltip({delay: 50});
     $('.parallax').parallax();
     $('.collapsible').collapsible();
     $('.scrollspy').scrollSpy();
