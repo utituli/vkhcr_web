@@ -129,8 +129,8 @@ blockquote {
 
 
 .collection .collection-item.avatar .circle {
-    width: 84px;
-    height: 84px;
+    width: 84px !important;
+    height: 84px !important;
 }
 
 .collection .collection-item.avatar {
