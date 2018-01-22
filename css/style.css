@@ -86,18 +86,19 @@ p {
   vertical-align: super;
 }
 
-#basicInformation .collapsible-header i {
+#actions .collapsible-header i {
   float: none;
   display: inline-block;
 }
 
-#basicInformation h2 {
+#actions h2 {
   margin: 1.78rem 0 0 0;
 }
 
-#basicInformation .collapsible-header {
+#actions .collapsible-header {
   line-height: 0;
   padding-bottom: 1.78rem;
+  display: block;
 }
 
 blockquote {
