@@ -48,7 +48,7 @@ $('.cities').html([{
     city: 'olomouc',
     name: 'VKH Olomouc',
     url: 'http://www.vkholomouc.cz',
-    facebook: 'https://www.facebook.com/vkholomouc/',
+    facebook: 'https://www.facebook.com/VKH-Olomouc-326371718219/',
     chairleader: 'Michal Štverák',
     email: 'predseda.vkholomouc@seznam.cz',
     holyMass: 'středa 19:00 v kostele Panny Marie Sněžné'
@@ -57,10 +57,10 @@ $('.cities').html([{
     city: 'praha',
     name: 'VKH Praha',
     url: 'http://www.vkhpraha.cz',
-    facebook: 'https://www.facebook.com/vkhpraha/',
+    facebook: 'https://www.facebook.com/VKH-Praha-509511169078475/',
     chairleader: 'Petr Barborka',
     email: 'predseda@vkhpraha.cz',
-    holyMass: 'středa 19:00 v kostele sv.Ignáce na Karlově náměstí'
+    holyMass: 'středa 19:00 v kostele sv. Ignáce na Karlově náměstí'
   },
   {
     city: 'ostrava',
@@ -75,7 +75,7 @@ $('.cities').html([{
     city: 'hradec',
     name: 'KAK Salaš',
     url: 'http://www.salas.hk',
-    facebook: 'https://www.facebook.com/salas/',
+    facebook: 'https://www.facebook.com/salas.hradec/',
     chairleader: 'Helena Vítů',
     email: 'predseda.salas@gmail.com, salas@salas.hk',
     holyMass: 'středa 19:30 v kostele Nanebevzetí Panny Marie na Velkém náměstí'
